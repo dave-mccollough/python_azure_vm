@@ -148,7 +148,3 @@ poller = compute_client.virtual_machines.begin_create_or_update(RESOURCE_GROUP_N
 vm_result = poller.result()
 
 print(f"Provisioned virtual machine {vm_result.name}")
-
-
-
-https://docs.microsoft.com/en-us/azure/developer/python/azure-sdk-example-virtual-machines?tabs=cmd
